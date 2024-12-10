@@ -1,0 +1,112 @@
+:root {
+  --color-red: #c81f26;
+  --color-green: #00b494;
+  --color-title: #2a2a32;
+  --color-content: #2a2a32;
+  --font-title: 'Allura', cursive;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-content);
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+#hero h1.title-large {
+  font-family: var(--font-title);
+  font-size:150px;
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+#hero p {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+#hero .btn {
+  background-color: var(--color-red);
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#hero .btn:hover {
+  background-color: #a0161e;
+}
+#instagram h2.titulo {
+    text-align: center; 
+    font-family: var(--font-body) 
+    font-size: 36px; 
+    margin-bottom: 30px; 
+	font-weight: bold;
+}
+
+
+#gifts {
+  padding: 60px 0;
+}
+
+#gifts h4 {
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--color-red);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#gifts h2.title-medium {
+  font-family: var(---font-body)
+  font-size: 48px;
+  color: var(--color-title);
+  margin-bottom: 15px;
+}
+
+#gifts p {
+  font-family: var(--font-body);
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#gifts .btn {
+  background-color: var(--color-green);
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#gifts .btn:hover {
+  background-color: #008060;
+}
+#cta .container {
+    color: #000000;
+}
+
+#cta .btn-light {
+    color: black; 
+    background-color: white; 
+}
+#instagram .fa-truck-fast {
+    color: #c81f26; 
+    font-size: 40px; 
+}
+#instagram .fa-regular{
+     color: #c81f26; 
+    font-size: 40px; 
+}
+
+#instagram .fa-wallet {
+   color: #c81f26; 
+font-size: 40px;
+}
